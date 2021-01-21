@@ -11,7 +11,7 @@ directories:
 notifications:
 email:
  
-       -j.inglese@studenti.unisannio.it
+       - j.inglese@studenti.unisannio.it
       
 on_success: always
 on_failure: always
