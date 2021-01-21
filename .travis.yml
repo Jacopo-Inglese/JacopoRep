@@ -1,6 +1,4 @@
-language: java
-install: skip
+matrix:
+  - JOB="./gradlew build"
 
- 
- 
- 
+script: "$JOB"
