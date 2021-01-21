@@ -3,6 +3,11 @@ matrix:
 
 script: "$JOB"
 
+cache:
+directories:
+~/.gradle/caches/
+~/.gradle/wrapper/
+
 notifications:
 email:
        -jacopoinglese@yahoo.it
