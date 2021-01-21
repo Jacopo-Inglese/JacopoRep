@@ -1,4 +1,7 @@
-language : java 
+matrix:
+  - JOB="./gradlew build"
+
+script: "$JOB"
 
 notifications:
 email:
