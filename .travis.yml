@@ -6,5 +6,7 @@ script: "$JOB"
 notifications:
 email:
        - jacopoinglese@yahoo.it
+       - j.inglese@studenti.unisannio.it
+
 on_success: always
 on_failure: always
