@@ -4,6 +4,7 @@ matrix:
 script: "$JOB"
 
 notifications:
-email: jacopoinglese@yahoo.it
+email:
+       - jacopoinglese@yahoo.it
 on_success: always
 on_failure: always
