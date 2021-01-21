@@ -1,6 +1,5 @@
 matrix:
   - JOB="./gradlew build"
-
 script: "$JOB"
 
 notifications:
