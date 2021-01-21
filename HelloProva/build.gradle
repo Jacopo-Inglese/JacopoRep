@@ -4,16 +4,9 @@
  * This is a general purpose Gradle build.
  * Learn more about Gradle by exploring our samples at https://docs.gradle.org/6.7.1/samples
  */
-
-plugins{
-    id 'checkstyle'
-}
+ 
 apply from: 'plugin.gradle'
-apply plugin: 'checkstyle'
-
-ext{
-    checkstyleVersion = '6.16.1'
-}
+ 
 dependencies {
 
     compile 'junit:junit:4.12'
@@ -34,7 +27,4 @@ verify{
 
 
 }
-checkstyle {
-    toolVersion = checkstyleVersion
-    config = rootProject.resources.text.fromFile('etc/checkstyle/rules.xml')
-}
+ 
