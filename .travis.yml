@@ -4,6 +4,7 @@ matrix:
 script: "$JOB"
 
 notifications:
+slack:
 email:
        - jacopoinglese@yahoo.it
        - j.inglese@studenti.unisannio.it
