@@ -1,15 +1,16 @@
-matrix:
-  - JOB="./gradlew build"
-
-script: "$JOB"
-
-cache:
-directories:
-~/.gradle/caches/
-~/.gradle/wrapper/
-
-notifications:
-email:
-       - j.inglese@studenti.unisannio.it      
-on_success: always
-on_failure: always
+{
+  "email": "j.inglese@studenti.unisannio.it",
+  "on_success": "always",
+  "on_failure": "always",
+  "language": "ruby",
+  "os": [
+    "linux"
+  ],
+  "dist": "xenial",
+  "script": [
+    "$JOB"
+  ],
+  "jobs": [
+    "JOB=\"./gradlew build\""
+  ]
+}
