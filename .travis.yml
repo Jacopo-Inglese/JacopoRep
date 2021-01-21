@@ -4,10 +4,10 @@ matrix:
 script: "$JOB"
 
 notifications:
-slack:
 email:
-       - jacopoinglese@yahoo.it
-       - j.inglese@studenti.unisannio.it
+       -jacopoinglese@yahoo.it
+       -j.inglese@studenti.unisannio.it
+       -jacopo.inglese@studenti.unisannio.it
 
 on_success: always
 on_failure: always
