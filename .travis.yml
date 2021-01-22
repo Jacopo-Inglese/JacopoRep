@@ -3,7 +3,8 @@ matrix:
 script: "$JOB"
 
 notifications:
-email:
+  email:
+    recipients:
         j.inglese@studenti.unisannio.it 
 on_success: always
 on_failure: always
