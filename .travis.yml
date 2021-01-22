@@ -1,4 +1,7 @@
- 
+matrix:
+  - JOB="./gradlew build"
+script: "$JOB"
+
 notifications:
 email:
         j.inglese@studenti.unisannio.it 
