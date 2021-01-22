@@ -7,3 +7,6 @@ email:
         j.inglese@studenti.unisannio.it 
 on_success: always
 on_failure: always
+
+notifications:
+  slack: progettosw:FVxpq6vcaKjqIVqD485ZN0YJ
