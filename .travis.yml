@@ -3,7 +3,6 @@
 script: "$JOB"
 
 notifications:
-
 slack: progettosw:FVxpq6vcaKjqIVqD485ZN0YJ
   email:
     recipients:
