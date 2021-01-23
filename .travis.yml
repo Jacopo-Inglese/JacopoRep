@@ -1,6 +1,6 @@
 language : java
 
-script : cd HelloProva && ./gradlew build
+script : cd HelloProva && build.gradle
 
 notifications:
   email:
