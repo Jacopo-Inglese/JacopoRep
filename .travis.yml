@@ -5,7 +5,8 @@ script: "$JOB"
 notifications:
   email:
     recipients:
-        j.inglese@studenti.unisannio.it 
-on_success: always
-on_failure: always
+       - j.inglese@studenti.unisannio.it 
+    on_success: always
+    on_failure: always
+  
   slack: progettosw:FVxpq6vcaKjqIVqD485ZN0YJ
