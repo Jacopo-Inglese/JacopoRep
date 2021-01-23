@@ -1,9 +1,14 @@
+  
 matrix:
   - JOB="./gradlew build"
 script: "$JOB"
 
 notifications:
-email:
-        j.inglese@studenti.unisannio.it 
-on_success: always
-on_failure: always
+  email:
+    recipients:
+       - j.inglese@studenti.unisannio.it 
+    on_success: always
+    on_failure: always
+  
+  slack: progettosw:FVxpq6vcaKjqIVqD485ZN0YJ
+© 2021 GitHub, Inc.
