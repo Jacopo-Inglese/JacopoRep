@@ -1,6 +1,6 @@
-matrix:
-  - JOB="./gradlew build"
-script: "$JOB"
+language : java
+
+script : cd HelloProva && ./gradlew build
 
 notifications:
   email:
