@@ -1,7 +1,6 @@
-language : java
-
-script : cd HelloProva && build.gradle
-
+matrix: 
+  - JOB="./gradlew build"	
+script: "$JOB"
 notifications:
   email:
     recipients:
